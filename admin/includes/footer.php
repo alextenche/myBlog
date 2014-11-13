@@ -5,7 +5,7 @@
 		</div><!-- /.container -->
 
 		<div class="blog-footer">
-			<p>PHPLoversBlog &copy; 2014</p>
+			<p>alexTenche 2014</p>
 			<p><a href="#">Back to top</a></p>
 		</div>
 

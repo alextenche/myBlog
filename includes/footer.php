@@ -25,7 +25,7 @@
     </div><!-- /.container -->
 
     <div class="blog-footer">
-      <p>MyBlog &copy;Lexucuflexu 2014</p>
+      <p>MyBlog - alexTenche 2014</p>
       <p>
         <a href="#">Back to top</a>
       </p>

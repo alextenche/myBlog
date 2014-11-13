@@ -27,6 +27,11 @@
 	}
 ?>
 
+<!-- delete category -->
+<?php if(isset($_POST['delete'])){
+	$query = "DELETE FROM categories WHERE id = ".$id;
+	$delete_row = $db->delete($query);	
+}?>
 
 
 <form role="form" method="post" action="edit_category.php?id=<?php echo $id; ?>">

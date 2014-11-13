@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 22 Oct 2014 la 13:21
+-- Generation Time: 13 Noi 2014 la 13:34
 -- Server version: 5.6.17
 -- PHP Version: 5.5.12
 
@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `categories` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(100) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=25 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=29 ;
 
 --
 -- Salvarea datelor din tabel `categories`
@@ -39,7 +39,9 @@ CREATE TABLE IF NOT EXISTS `categories` (
 INSERT INTO `categories` (`id`, `name`) VALUES
 (22, 'Economy'),
 (23, 'PHP'),
-(24, 'Politics');
+(24, 'Politics'),
+(25, 'bootstrap'),
+(26, 'Blade''s stuff');
 
 -- --------------------------------------------------------
 
@@ -56,7 +58,7 @@ CREATE TABLE IF NOT EXISTS `posts` (
   `tags` varchar(255) NOT NULL,
   `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=10 ;
 
 --
 -- Salvarea datelor din tabel `posts`
@@ -64,7 +66,12 @@ CREATE TABLE IF NOT EXISTS `posts` (
 
 INSERT INTO `posts` (`id`, `title`, `body`, `category`, `author`, `tags`, `date`) VALUES
 (1, 'wamp problems', 'wamp problems', '23', 'Lexucuflexu', 'php, wamp', '2014-10-22 11:07:57'),
-(2, 'Biziday', 'Watch more Biziday with Moise Guran !', '22', 'Alex', 'biziday', '2014-10-22 11:11:40');
+(2, 'Biziday', 'Watch more Biziday with Moise Guran !', '22', 'Alex', 'biziday', '2014-10-22 11:11:40'),
+(3, 'Ready to deploy2', '						I think it''s ready, or maybe not :)			', '23', 'alexTenche', 'ready', '2014-11-13 09:31:55'),
+(4, 'blade', '						test		1		', '26', 'blade', 'blade', '2014-11-13 10:28:20'),
+(5, 'bootstrap ruls', 'ssss', '23', 'ssss', 'ssss', '2014-11-13 10:32:36'),
+(6, 'Blade suparat', 'Cica Wesley Snipes  era sa suparat la filmarile de la Blade Trinity ca nu comunica decat prin biletele pe care le semna Blade :)', '26', 'alexTenche', 'blade, biletele', '2014-11-13 10:58:21'),
+(9, 'Ultimul', 'a', '25', 'a', 'a', '2014-11-13 11:24:55');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

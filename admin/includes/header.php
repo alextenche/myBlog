@@ -20,7 +20,7 @@
           <a class="blog-nav-item active" href="index.php">Dashboard</a>
           <a class="blog-nav-item" href="add_post.php">Add Post</a>
 		  <a class="blog-nav-item" href="add_category.php">Add Category</a>
-		  <a class="blog-nav-item pull-right" href="http://localhost/_phploversblog">Visit Blog</a>
+		  <a class="blog-nav-item pull-right" href="http://localhost/MyBlog">Visit Blog</a>
         </nav>
       </div>
     </div>
@@ -30,7 +30,16 @@
 		<div class="blog-header">
 			<h2>Admin Area</h2>
 		</div>
+		
+		<?php if(isset($_GET['msg'])){ ?>
+			<div class="alert alert-success">
+				<?php echo "<h3>" . $_GET['msg'] . "</h3>"; ?>
+			</div>
+		<?php } else {/*$msg=""; */}?>
 
+			
+		
+			
 		<div class="row">
 
         <div class="col-sm-12 blog-main">

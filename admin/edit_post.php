@@ -35,6 +35,7 @@
 	}
 ?>
 
+<!-- delete post -->
 <?php if(isset($_POST['delete'])){
 	$query = "DELETE FROM posts WHERE id = ".$id;
 	$delete_row = $db->delete($query);	

@@ -9,7 +9,7 @@
 		$query = "SELECT * FROM posts WHERE category=" . $category;  // create query
 		$posts = $db->select($query);  // run query
 	} else {
-		$query = "SELECT * FROM posts";  // create query
+		$query = "SELECT * FROM posts ORDER BY id DESC";  // create query
 		$posts = $db->select($query);  // run query
 	}
 	
