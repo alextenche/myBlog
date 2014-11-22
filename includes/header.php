@@ -2,7 +2,7 @@
 <?php include 'libraries/Database.php'; ?>
 <?php include 'helpers/format_helper.php'; ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,9 +27,12 @@
     <div class="container">
 
       <div class="blog-header">
-		<div class="logo"><img src="images/logo.png" width="100px" height="75px"/></div>
+		<div class="logo">
+			<img src="images/logo.png" />
+		</div>
         <h1 class="blog-title">MyBlog</h1>
-        <p class="lead blog-description">PHP News, tutorials, videos & more.</p>
+		
+        <p class="lead blog-description">News, tutorials, videos & more.</p>
       </div>
 
       <div class="row">
