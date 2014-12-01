@@ -20,7 +20,7 @@
           <a class="blog-nav-item active" href="index.php">Dashboard</a>
           <a class="blog-nav-item" href="add_post.php">Add Post</a>
 		  <a class="blog-nav-item" href="add_category.php">Add Category</a>
-		  <a class="blog-nav-item pull-right" href="http://localhost/MyBlog">Visit Blog</a>
+		  <a class="blog-nav-item pull-right" href="http://alextenche.16mb.com/MyBlog">Visit Blog</a>
         </nav>
       </div>
     </div>

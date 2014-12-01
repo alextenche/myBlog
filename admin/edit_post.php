@@ -50,7 +50,7 @@
 	
 	<div class="form-group">
 		<label>Post Body</label>
-		<textarea name="body" type="text" class="form-control" placeholder="Enter Post Body">
+		<textarea name="body" type="text" class="form-control" rows="5" placeholder="Enter Post Body">
 			<?php echo $post['body']; ?>
 		</textarea>
 	</div>

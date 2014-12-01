@@ -31,7 +31,7 @@
     </div><!-- /.container -->
 
     <div class="blog-footer">
-      <p><a href="http://lexucuflexu.3eeweb.com/">alexTenche 2014</a></p>
+      <p><a href="http://alextenche.16mb.com/">alexTenche 2014</a></p>
       <p>
         <a href="#">Back to top</a>
       </p>
